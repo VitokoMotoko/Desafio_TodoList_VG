@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #89cbf5;
+}
+
+.containerb {
+    width: 80%;
+    max-width: 800px;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    margin-right: 100px;
+}
+
+input[type="text"] {
+    width: 300px; 
+}
+
+h1 {
+    border-bottom: 2px solid black;
+}
+
+.no-margin {
+    margin: 0;
+}

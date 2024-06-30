@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Todo List VG</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+<div class="containerb">
+    <h1>Todo List</h1>
+    <p class="no-margin">Nueva Tarea</p>
+    <input type="text" id="newTask">
+    <button onclick="addTask()">Agregar</button>
+    <div class="container">
+        <div class="sidebar">
+            <p>Total: <span id="total">0</span></p>
+            <p>Realizadas: <span id="completed">0</span></p>
+        </div>
+        <div class="main">
+            <table id="taskTable">
+                <tr>
+                    <th>ID</th>
+                    <th>Tarea</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+<script src="./assets/js/scripts.js"></script>
+
+</body>
+</html>
